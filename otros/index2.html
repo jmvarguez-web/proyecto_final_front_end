@@ -5,9 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Ecommerce - Inicio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./app.css">
     <style>
@@ -21,43 +26,37 @@
         <h1 style="margin: 0 auto; ">Tienda de <span>muebles</span></h1>
 
         <nav>
-            <ul style="list-style: none">
-                <li style="display: inline; padding-right: 5px">Inicio</li>
-                <li style="display: inline; padding-right: 5px">Nosotros</li>
-                <li style="display: inline; padding-right: 5px">Tienda</li>
-                <li style="display: inline; padding-right: 5px">Blog</li>
-                <li style="display: inline; padding-right: 5px">Galería</li>
-                <li style="display: inline; padding-right: 5px">Contacto</li>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Galería</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <section id="hero"></section>
-    <main style="width: 1024px; margin: 0 auto; min-height: 800px">
+    <section class="hero" id="herosection"></section>
+    <main>
         <div class="container">
             <h2 style="text-align: center">Nuestros Productos</h2>
             <section id="producto1">
                 <article class="row">
-                    <div class="column">
-                        <img src="./producto1.jpg" alt="" style="max-height: 349px; width: 100%; min-width: 600px" ; />
+                    <div class="column imgproductouno">
+                        <div class="imag_producto"><img src="./producto1.jpg" alt="" /></div>
+
                     </div>
                     <div class="column">
                         <div class="row">
-                            <div class="column" style="
-                  background-color: #037bc0;
-                  border-radius: 10px;
-                  color: white;
-                  text-align: center;
-                ">
-                                <h3>Producto</h3>
+                            <div class="column " id="boxproduct1">
+                                <h2>Producto</h2>
                                 <blockquote>
                                     Lorem Ipsum is simply dummy text of the printing and
                                     typesetting industry. Lorem Ipsum has been the industry's
-                                    standard dummy text ever since the 1500s, when an unknown
-                                    printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                    standard
                                 </blockquote>
-                                <strong>$12,000.00</strong><br />
-                                <button type="button" style="background-color: limegreen">
+                                <h3>$12,000.00</h3>
+                                <button type="button" class="buttonProduct">
                                     Agregar al carrito
                                 </button>
                             </div>
@@ -71,22 +70,15 @@
                     <div class="column">
                         <img src="./producto2.jpg" alt="" style="max-height: 300px; width: 100%" ; />
                         <div class="row">
-                            <div class="column" style="
-                  background-color: #037bc0;
-                  border-radius: 10px;
-                  color: white;
-                  text-align: center;
-                ">
-                                <span>Producto</span>
+                            <div class="column" id="boxproduct1">
+                                <h3>Producto</h3>
                                 <blockquote>
                                     Lorem Ipsum is simply dummy text of the printing and
                                     typesetting industry. Lorem Ipsum has been the industry's
-                                    standard dummy text ever since the 1500s, when an unknown
-                                    printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                    standard
                                 </blockquote>
                                 <strong>$12,000.00</strong><br />
-                                <button type="button" style="background-color: limegreen">
+                                <button type="button" class="buttonProduct">
                                     Agregar al carrito
                                 </button>
                             </div>
@@ -95,22 +87,15 @@
                     <div class="column">
                         <img src="./producto3.jpg" alt="" style="max-height: 300px; width: 100%" ; />
                         <div class="row">
-                            <div class="column" style="
-                  background-color: #037bc0;
-                  border-radius: 10px;
-                  color: white;
-                  text-align: center;
-                ">
-                                <span>Producto</span>
+                            <div class="column" id="boxproduct1">
+                                <h3>Producto</h3>
                                 <blockquote>
                                     Lorem Ipsum is simply dummy text of the printing and
                                     typesetting industry. Lorem Ipsum has been the industry's
-                                    standard dummy text ever since the 1500s, when an unknown
-                                    printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                    standard
                                 </blockquote>
                                 <strong>$12,000.00</strong><br />
-                                <button type="button" style="background-color: limegreen">
+                                <button type="button" class="buttonProduct">
                                     Agregar al carrito
                                 </button>
                             </div>
@@ -124,22 +109,15 @@
                     <div class="column">
                         <img src="./producto4.jpg" alt="" style="max-height: 250px; width: 100%" ; />
                         <div class="row">
-                            <div class="column" style="
-                  background-color: #037bc0;
-                  border-radius: 10px;
-                  color: white;
-                  text-align: center;
-                ">
-                                <span>Producto</span>
+                            <div class="column" id="boxproduct1">
+                                <h3>Producto</h3>
                                 <blockquote>
                                     Lorem Ipsum is simply dummy text of the printing and
                                     typesetting industry. Lorem Ipsum has been the industry's
-                                    standard dummy text ever since the 1500s, when an unknown
-                                    printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                    standard
                                 </blockquote>
                                 <strong>$12,000.00</strong><br />
-                                <button type="button" style="background-color: limegreen">
+                                <button type="button" class="buttonProduct">
                                     Agregar al carrito
                                 </button>
                             </div>
@@ -148,22 +126,15 @@
                     <div class="column">
                         <img src="./producto5.jpg" alt="" style="max-height: 250px; width: 100%" ; />
                         <div class="row">
-                            <div class="column" style="
-                  background-color: #037bc0;
-                  border-radius: 10px;
-                  color: white;
-                  text-align: center;
-                ">
-                                <span>Producto</span>
+                            <div class="column" id="boxproduct1">
+                                <h3>Producto</h3>
                                 <blockquote>
                                     Lorem Ipsum is simply dummy text of the printing and
                                     typesetting industry. Lorem Ipsum has been the industry's
-                                    standard dummy text ever since the 1500s, when an unknown
-                                    printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                    standard
                                 </blockquote>
                                 <strong>$12,000.00</strong><br />
-                                <button type="button" style="background-color: limegreen">
+                                <button type="button" class="buttonProduct">
                                     Agregar al carrito
                                 </button>
                             </div>
@@ -172,22 +143,15 @@
                     <div class="column">
                         <img src="./producto6.jpg" alt="" style="max-height: 250px; width: 100%" ; />
                         <div class="row">
-                            <div class="column" style="
-                  background-color: #037bc0;
-                  border-radius: 10px;
-                  color: white;
-                  text-align: center;
-                ">
-                                <span>Producto</span>
+                            <div class="column" id="boxproduct1">
+                                <h3>Producto</h3>
                                 <blockquote>
                                     Lorem Ipsum is simply dummy text of the printing and
                                     typesetting industry. Lorem Ipsum has been the industry's
-                                    standard dummy text ever since the 1500s, when an unknown
-                                    printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                    standard
                                 </blockquote>
                                 <strong>$12,000.00</strong><br />
-                                <button type="button" style="background-color: limegreen">
+                                <button type="button" class="buttonProduct">
                                     Agregar al carrito
                                 </button>
                             </div>
@@ -198,7 +162,7 @@
         </div>
 
         <h2 style="margin: 0 auto; color: #037bc0;text-align: center;">Cateoria productos</h2>
-        <section class="row" id="categorias" style="text-align: center">
+        <section class="row" id="categorias">
             <div id="oficina" class="column">
                 <img src="./categoria1.jpg" alt="" style="max-height: 250px; width: 100%" ; />
                 <span>Oficina</span>
@@ -213,44 +177,46 @@
             </div>
         </section>
     </main>
-    <footer style="width: 1024px; margin: 0 auto;padding-top: 30px; ">
+    <footer>
         <section class="row">
-            <div class="column" style="text-align: center;">
+            <div class="column" style="text-align: center;" id="box_categoria">
 
                 <nav>
                     <h3><strong>Categorias</strong></h3>
-                    <ul style="list-style-type: none;list-style: none; padding: 0;">
-                        <li style="margin: 0;">Cocina</li>
-                        <li style="margin: 0;">Oficina</li>
-                        <li style="margin: 0;">Jardín</li>
-                        <li style="margin: 0;">Cochera</li>
-                        <li style="margin: 0;">Dormitorio</li>
+                    <ul class="footerul">
+                        <li><a>Cocina</a></li>
+                        <li><a>Oficina</a></li>
+                        <li><a>Jardín</a></li>
+                        <li><a>Cochera</a></li>
+                        <li><a>Dormitorio</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="column" style="text-align: center;">
+            <div class="column" style="text-align: center;" id="box_nosotros">
 
                 <nav>
                     <h3><strong>Sobre nosotros</strong></h3>
-                    <ul style="list-style-type: none;list-style: none; padding: 0;">
-                        <li style="margin: 0;">Nuestra historia </li>
-                        <li style="margin: 0;">Misión</li>
-                        <li style="margin: 0;">visión</li>
-                        <li style="margin: 0;">valores</li>
-                        <li style="margin: 0;">Carrera</li>
-                        <li style="margin: 0;">Políticas de privacidad y Términos del servicio</li>
+                    <ul class="footerul">
+                        <li><a href="#">Nuestra historia </a></li>
+                        <li><a href="#">Misión</a></li>
+                        <li><a href="#">visión</a></li>
+                        <li><a href="#">valores</a></li>
+                        <li><a href="#">Carrera</a></li>
+                        <a><a href="#">Políticas de privacidad y Términos del servicio</a></li>
 
                     </ul>
                 </nav>
             </div>
-            <div class="column" style="text-align: center;">
+            <div class="column" style="text-align: center;" id="box_soporte">
 
                 <nav>
                     <h3><strong>Soporte</strong></h3>
-                    <ul style="list-style-type: none;list-style: none; padding: 0;">
-                        <li style="margin: 0;"> Preguntas frecuentes</li>
-                        <li style="margin: 0;">Ayuda en línea</li>
-                        <li style="margin: 0;"> Confianza y seguridad</li>
+                    <ul class="footerul">
+                        <li>
+                            <a> Preguntas frecuentes</a>
+                        </li>
+                        <li><a>Ayuda en línea</a></li>
+                        <li><a>Confianza y seguridad</a> </li>
 
                     </ul>
                 </nav>
