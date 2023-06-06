@@ -117,6 +117,8 @@ nav#nav-main a {
 section#seccion-2 {
   display: flex;
   gap: 30px;
+  grid-column: span 1;
+  grid-row: span 1;
 }
 
 article#producto-2,
@@ -212,9 +214,7 @@ section#disclaimer {
 }
 
 /* --------------mediaquerys  ------------------- */
-@media only screen and (max-width: 768px) {
-  /* Styles here */
-}
+
 /* Tamaño tablet (768-480) */
 @media all and (min-width: 480px) and (max-width: 768px) {
   /*producto 1*/

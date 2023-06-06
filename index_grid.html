@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Ecommerce - Inicio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -16,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/app_bootstrap.css">
+    <link rel="stylesheet" href="./css/app_grid.css">
     <style>
 
     </style>
@@ -30,28 +28,7 @@
         <h1>Tienda de <span>muebles</span></h1>
     </header>
     <!-- ----------------NAV---------------- -->
-
-    <nav class="navbar navbar-expand-lg bg-primary " id="nav-main">
-        <div class="container-fluid">
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav menu">
-                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Tienda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Galería</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- <nav id="nav-main">
+    <nav id="nav-main">
         <ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Nosotros</a></li>
@@ -60,55 +37,16 @@
             <li><a href="#">Galería</a></li>
             <li><a href="#">Contacto</a></li>
         </ul>
-    </nav> -->
+    </nav>
     <!-- ----------------HERO---------------- -->
-    <!-- <article class="hero-image">
+    <article class="hero-image">
         <div>
             <h1>Tienda en línea con Flexbox</h1>
         </div>
-    </article> -->
+    </article>
+    <main>
 
-
-    <div id="herodos" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#herodos" data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#herodos" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#herodos" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active hero-image">
-                <div>
-                    <h1>Tienda en línea</h1>
-                </div>
-            </div>
-            <div class="carousel-item hero-image-cat1">
-                <div>
-                    <h1>Oficina</h1>
-                </div>
-            </div>
-            <div class="carousel-item hero-image-cat2">
-                <div>
-                    <h1>Hogar</h1>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#herodos" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#herodos" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <!-- ----------------HERO---------------- -->
-
-
-    <main class="container-xl">
-
-        <h2>Nuestros Productos</h2>
+        <h2 style="text-align: center">Nuestros Productos</h2>
         <!-- ----------------SECCION 1---------------- -->
         <section id="seccion-1">
             <!-- PRODUCTO 1 -->
@@ -128,7 +66,7 @@
                     <span class="precio">
                         $12,000
                     </span>
-                    <button class="btn btn-success">Agregar al carrito</button>
+                    <button>Agregar al carrito</button>
                 </div>
             </article>
         </section>
@@ -146,7 +84,7 @@
                         standard
                     </p>
                     <span class="precio">$12,000.00</span><br />
-                    <button type="button" class="btn btn-success">
+                    <button type="button" class="buttonProduct">
                         Agregar al carrito
                     </button>
 
@@ -166,7 +104,7 @@
                         standard
                     </p>
                     <span class="precio">$12,000.00</span><br />
-                    <button type="button" class="btn btn-success">
+                    <button type="button" class="buttonProduct">
                         Agregar al carrito
                     </button>
 
@@ -189,7 +127,7 @@
                         standard
                     </p>
                     <span class="precio">$12,000.00</span><br />
-                    <button type="button" class="btn btn-success">
+                    <button type="button" class="buttonProduct">
                         Agregar al carrito
                     </button>
 
@@ -209,7 +147,7 @@
                         standard
                     </p>
                     <span class="precio">$12,000.00</span><br />
-                    <button type="button" class="btn btn-success">
+                    <button type="button" class="buttonProduct">
                         Agregar al carrito
                     </button>
 
@@ -229,7 +167,7 @@
                         standard
                     </p>
                     <span class="precio">$12,000.00</span><br />
-                    <button type="button" class="btn btn-success">
+                    <button type="button" class="buttonProduct">
                         Agregar al carrito
                     </button>
 
@@ -258,12 +196,12 @@
     </main>
     <!-- ----------------FOOTER---------------- -->
     <footer>
-        <section id="footer" class="container-xl">
+        <section id="footer">
             <div id="box-categorias">
                 <h3>Categorias</h3>
                 <nav>
 
-                    <ul class="">
+                    <ul>
                         <li><a>Cocina</a></li>
                         <li><a>Oficina</a></li>
                         <li><a>Jardín</a></li>
@@ -277,7 +215,7 @@
                 <h3>Sobre nosotros</h3>
                 <nav>
 
-                    <ul class="">
+                    <ul>
                         <li><a href="#">Nuestra historia </a></li>
                         <li><a href="#">Misión,visión,valores</a></li>
                         <li><a href="#">Carrera</a></li>
@@ -290,7 +228,7 @@
                 <h3>Sobre nosotros</h3>
                 <nav>
 
-                    <ul class="">
+                    <ul>
                         <li>
                             <a> Preguntas frecuentes</a>
                         </li>
@@ -306,9 +244,6 @@
     </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
