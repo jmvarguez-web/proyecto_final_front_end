@@ -1,0 +1,300 @@
+Rene Alejandro Cerón a Todos 6:54 PM
+https://github.com/renetecmilenio/gird-boostrap
+Rene Alejandro Cerón a Todos 7:01 PM
+https://github.com/renetecmilenio/gird-boostrap
+Rene Alejandro Cerón a Todos 8:44 PM
+<!-- En la cabecera, incluye el archivo bootstrap.min.css incluido en el apartado Archivos
+adjuntos del proyecto. -->
+<link rel="stylesheet" href="./bootstrap.min.css">
+Rene Alejandro Cerón a Todos 9:00 PM
+<!-- En el cuerpo del documento, incluye el bundle de Bootstrap que encontrarás en el
+apartado Archivos adjuntos. -->
+<script src="./bootstrap.bundle.min.js"></script>
+Rene Alejandro Cerón a Todos 9:06 PM
+<style>
+    .bg-primary {
+        background-color: #037BC0 !important;
+    }
+
+    .bg-success {
+        background-color: #41ff41 !important;
+    }
+</style>
+Luis Arellano a Todos 9:07 PM
+estas mute ?
+Rene Alejandro Cerón a Todos 9:19 PM
+<!-- -------------HEADER---------------- -->
+<header class="text-center py-3">
+    <h1>Tienda de <span>Muebles</span></h1>
+</header>
+Rene Alejandro Cerón a Todos 9:36 PM
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand p-2 bg-success text-dark" href="#">Logo</a>
+        <button class="navbar-toggler border border-white" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3 text-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tienda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand p-2 bg-success text-dark" href="#">Logo</a>
+        <button class="navbar-toggler border border-white" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3 text-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tienda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+</nav>
+Rene Alejandro Cerón a Todos 9:39 PM
+<!-- -------------HEADER---------------- -->
+<header class="text-center py-3">
+    <h1>Tienda de <span>Muebles</span></h1>
+</header>
+Rene Alejandro Cerón a Todos 9:48 PM
+/* HERO IMAGE */
+.hero-image {
+min-height: 25rem;
+background-image: url(principal.jpg);
+background-repeat: no-repeat;
+color: #FFF;
+background-position: 100% 90%;
+background-size: cover;
+}
+/* MEDIA QUERIES */
+@media screen and (max-width:768px) {
+
+/* HERO IMAGE DISPOSITIVOS PEQUEÑOS */
+.hero-image {
+min-height: 20rem;
+background-position: center;
+}
+}
+.hero-image div {
+min-height: inherit;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#0000009c;
+text-align: center;
+}
+Rene Alejandro Cerón a Todos 10:10 PM
+<main class="py-3 px-3 px-xs-3 px-sm-5 px-lg-5">
+    Rene Alejandro Cerón a Todos 10:17 PM
+    <!-- ------------PRODUCTOS----------------- -->
+    <h2 class="mt-4 text-center">Nuestros Productos</h2>
+    <!-- SECCIÓN 1 -->
+    <section class="my-5" id="seccion-1">
+        <!-- PRODUCTO 1 -->
+        <article class="row gx-0" id="producto-1">
+            <div class="columna-1 col-lg-6">
+                <img src="producto1.jpg" alt="">
+            </div>
+            <div
+                class="columna-2 col-lg-6 bg-primary text-white p-4 text-center d-flex flex-column justify-content-center align-items-center">
+                <h3>Producto 1</h3>
+                <p class="txt-descripcion">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quidem quo, obcaecati adipisci
+                    ipsa
+                    commodi sit incidunt consequuntur consectetur nemo harum neque, magnam dolorem architecto ad
+                    eveniet
+                    cupiditate pariatur dignissimos.
+                </p>
+                <span class="precio mb-3 d-block mt-1 fw-bold fs-4">
+                    $12,000
+                </span>
+                <button class="rounded-2 shadow btn-bounce bg-success py-2 px-3 fw-bold" data-bs-toggle="modal"
+                    data-bs-target="#producto1">Agregar
+                    al carrito</button>
+            </div>
+        </article>
+    </section>
+    Luis Arellano a Todos 10:19 PM
+    Asi
+    Rene Alejandro Cerón a Todos 10:55 PM
+    div.oficina,
+    div.hogar,
+    div.cocina {
+    box-shadow: 0 0 2px #1586fb;
+    border-radius: 10px 10px 0 0;
+    background: #1586fb1f;
+    }
+    Rene Alejandro Cerón a Todos 11:07 PM
+    nav a {
+    color: var(--bs-white) !important;
+    }
+
+    .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath
+    stroke='rgba%28255, 255, 255, 100%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4
+    15h22M4 23h22'/%3e%3c/svg%3e") !important
+    }
+
+    .navbar-toggler:focus {
+    box-shadow: none;
+    }
+
+    .nav-link, footer a {
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease;
+    }
+
+    .nav-link:hover, footer a:hover {
+    border-bottom: 1px solid white;
+    }
+    <!--******* MODALES ****** -->
+
+    <!-- MODAL 1 PRODUCTO 1 -->
+    <div class="modal fade" id="producto1" tabindex="-1" aria-labelledby="producto1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-dark" id="producto1Label">Producto 1</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-dark">
+                    Descripción del producto 1
+                    <img src="./producto1.jpg" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    Rene Alejandro Cerón a Todos 11:21 PM
+    .btn-zoom {
+    transition: all 0.2s ease;
+    }
+
+    .btn-zoom:hover {
+    transform: scale(1.1);
+    animation-timing-function: ease;
+    }
+    /* REBOTE INFINITO */
+    .btn-bounce {
+    animation: bobble 1s ease infinite;
+    }
+
+    @keyframes bobble {
+    0% {
+    transform: translateY(3px);
+    }
+
+    50% {
+    transform: translateY(0px);
+    }
+
+    100% {
+    transform: translateY(3px);
+    }
+    }
+    Rene Alejandro Cerón a Todos 11:27 PM
+    article#producto-1:hover,
+    article#producto-2:hover,
+    article#producto-3:hover,
+    article#producto-4:hover,
+    article#producto-5:hover,
+    article#producto-6:hover {
+    transform: translate(0px, -5px);
+    cursor: pointer;
+    }
+
+    article#producto-1,
+    article#producto-2,
+    article#producto-3,
+    article#producto-4,
+    article#producto-5,
+    article#producto-6,
+    .columna-1.col-lg-6,
+    .columna-2.col-lg-6 {
+    transition: all .3s cubic-bezier(0.25, 0.1, 0.58, 1);
+    }
+    /* hover imagen zoom */
+    .columna-1.col-lg-6 img {
+    max-width: 100%;
+    /* Escala la imagen hasta su ancho máximo permitido */
+    max-height: 100%;
+    /* Escala la imagen hasta su alto máximo permitido */
+    transition: transform 0.3s;
+    }
+
+    .columna-1.col-lg-6 img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    }
+
+    /* hover imagen categorías */
+    div.oficina img,
+    div.hogar img,
+    div.cocina img {
+    border-radius: 10px 10px 0 0;
+    max-width: 100%;
+    /* Escala la imagen hasta su ancho máximo permitido */
+    max-height: 100%;
+    /* Escala la imagen hasta su alto máximo permitido */
+    transition: transform 0.3s;
+    }
+
+    div.oficina img:hover,
+    div.hogar img:hover,
+    div.cocina img:hover {
+    transform: scale(1.1);
+    /* Aplica la escala deseada (en este caso, 50%) al hacer hover */
+    cursor: pointer;
+    }
