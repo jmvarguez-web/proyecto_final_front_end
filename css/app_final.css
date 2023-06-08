@@ -141,7 +141,8 @@ button {
 /* SECCIÓN CATEGORÍAS */
 div.oficina,
 div.hogar,
-div.cocina {
+div.cocina,
+#contactFormbox {
   box-shadow: 0 0 2px #1586fb;
   border-radius: 10px 10px 0 0;
   background: #1586fb1f;
@@ -203,6 +204,12 @@ section#disclaimer {
     transform: translateY(3px);
   }
 }
+
+.animateboxgalery:hover {
+  transform: translate(0px, -5px);
+  cursor: pointer;
+}
+
 article#producto-1:hover,
 article#producto-2:hover,
 article#producto-3:hover,
@@ -223,7 +230,19 @@ article#producto-6,
 .columna-2.col-lg-6 {
   transition: all 0.3s cubic-bezier(0.25, 0.1, 0.58, 1);
 }
-
+/*Para galera*/
+.animateboxgalery div img {
+  max-width: 100%;
+  /* Escala la imagen hasta su ancho máximo permitido */
+  max-height: 100%;
+  /* Escala la imagen hasta su alto máximo permitido */
+  transition: transform 0.3s;
+}
+.animateboxgalery div img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/*Para galera*/
 /* hover imagen zoom */
 .columna-1.col-lg-6 img {
   max-width: 100%;
