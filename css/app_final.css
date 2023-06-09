@@ -18,7 +18,7 @@ img {
 h1,
 h2,
 h3 {
-  font-family: "Playfair ", Courier, monospace !important;
+  font-family: "Playfair", serif, Courier, monospace !important;
 }
 header h1 span {
   color: #037bc0;
